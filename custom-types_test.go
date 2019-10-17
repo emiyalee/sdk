@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/grafana-tools/sdk"
+	"github.com/emiyalee/sdk"
 )
 
 func TestIntString_Unmarshal(t *testing.T) {

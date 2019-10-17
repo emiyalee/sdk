@@ -30,8 +30,8 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/emiyalee/sdk"
 	"github.com/gosimple/slug"
-	"github.com/grafana-tools/sdk"
 )
 
 func main() {

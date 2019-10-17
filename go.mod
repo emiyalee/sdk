@@ -4,5 +4,5 @@ go 1.13
 
 require (
 	github.com/gosimple/slug v1.8.0
-	github.com/grafana-tools/sdk v0.0.0-20191016091842-168f2c6a0aaf
+	github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be // indirect
 )
