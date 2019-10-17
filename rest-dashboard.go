@@ -117,8 +117,11 @@ func (r *Client) GetRawDashboard(slug string) ([]byte, BoardProperties, error) {
 // FoundBoard keeps result of search with metadata of a dashboard.
 type FoundBoard struct {
 	ID        uint     `json:"id"`
+	UID       string   `json:"uid"`
 	Title     string   `json:"title"`
 	URI       string   `json:"uri"`
+	URL       string   `json:"url"`
+	Slug      string   `json:"slug"`
 	Type      string   `json:"type"`
 	Tags      []string `json:"tags"`
 	IsStarred bool     `json:"isStarred"`
